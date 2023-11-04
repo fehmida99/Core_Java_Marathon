@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+import java.util.TreeSet;
 
 //Write a function to remove duplicates from an array of integers.
 
@@ -12,7 +13,7 @@ public static void main(String[] args) {
 	
 	List li = Arrays.asList(4,5,6,6,4,5,8,9,21,1);
 	
-	Set<Integer> set = new HashSet<>(li);
+	Set<Integer> set = new TreeSet<>(li);
 	for(int val : set) {
 		System.out.print(val+" ");
 	}
