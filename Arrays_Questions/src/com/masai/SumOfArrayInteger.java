@@ -1,5 +1,5 @@
 package com.masai;
-
+//Write a Java program to find the sum of all elements in an integer array.
 public class SumOfArrayInteger {
 	 public static void main(String[] args) {
 	        // System.out.println("Hello, World!");

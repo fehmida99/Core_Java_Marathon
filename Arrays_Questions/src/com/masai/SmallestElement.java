@@ -1,4 +1,5 @@
 package com.masai;
+//Create a program to find the smallest element in an array of integers.
 
 public class SmallestElement {
 public static void main(String[] args) {
