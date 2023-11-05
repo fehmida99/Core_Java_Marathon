@@ -6,6 +6,7 @@ public class ReverseVowelInTheString {
 		return (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u' || c == 'A' || c == 'E' || c == 'I' || c == 'O'
 				|| c == 'U');
 	}
+	
 
 	// Function to reverse order of vowels
 	static String reverseVowel(String str) {
@@ -36,6 +37,7 @@ public class ReverseVowelInTheString {
 		return str2;
 	}
 
+	
 	// Driver function
 	public static void main(String[] args) {
 		String str = "fehmida Java Backend Developer";

@@ -2,24 +2,11 @@ package com.masai;
 
 import java.util.Arrays;
 
-/*Steps to implement the above approach:
-
-Sort the given string.
-Loop through the sorted string to find the duplicates.
-If the next character is the same as the current character then we keep on counting the occurrence of that char.
-If the count is greater than one then we print the character and its count.*/
-
-
-
-public class PrintDuplicate {
+public class FindDuplicate {
 	public static void main(String[] args) {
-		String str = "Hii World byee everybodyy";
+		String str = "hinaa Shaikh";
 		printDuplicates(str);
 	}
-
-
-
-
 
 
 	public static void printDuplicates(String str) {
@@ -53,18 +40,3 @@ public class PrintDuplicate {
 	}
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
