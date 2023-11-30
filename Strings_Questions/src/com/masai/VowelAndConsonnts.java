@@ -13,13 +13,15 @@ public static void main(String[] args) {
 		if(input.charAt(i)=='a' || input.charAt(i)=='e' || input.charAt(i)=='i' 
 				|| input.charAt(i)=='o' || input.charAt(i)=='u') {
 			vowelCount++;
+			System.out.print("Vowels count : " + input.charAt(i)+" ");
 		}else {
 			c_count++;
+			System.out.print("Consonant count : " + input.charAt(i)+" ");
 		}
 	}
 	
-	System.out.println("Vowels count :" + vowelCount);
-	System.out.println("Consonant count :" + c_count);
+//	System.out.println("Vowels count :" + vowelCount);
+//	System.out.println("Consonant count :" + c_count);
 	
 	
 	
