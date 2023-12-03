@@ -9,7 +9,7 @@ public static void main(String[] args) {
 		revString+=input.charAt(i);
 		
 	}
-	System.out.println(revString);
+//	System.out.println(revString);
 	
 	if(input.equals(revString)) {
 		System.out.println("Palindrome");
