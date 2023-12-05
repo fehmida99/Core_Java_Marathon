@@ -12,7 +12,8 @@ public class Happy_Bdayyyy {
 		String birthdate = sc.nextLine();
 
 		System.out.println("\nHappy Birthday, " + name + "!");
-		System.out.println("Wishing you a fantastic day on " + birthdate + "!"+"May Allah fullfill all your best wishes.....BE HAPPY AND KEEP SMILING ALWAYS");
+		System.out.println("Wishing you a fantastic day on " + birthdate + "!"
+		+"May Allah fullfill all your best wishes.....BE HAPPY AND KEEP SMILING ALWAYS");
 
 	}
 }
