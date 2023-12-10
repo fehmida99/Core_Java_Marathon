@@ -31,7 +31,7 @@ public class PrintDuplicate {
 		char[] ch = str.toCharArray();
 		Arrays.sort(ch);
 		String sortedStr = new String(ch);
- //	System.out.println(ch);
+        //	System.out.println(ch);
 
 		// Loop through the sorted string to find duplicates
 		for (int i = 0; i < size; i++) {
