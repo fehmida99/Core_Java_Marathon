@@ -18,6 +18,7 @@ public class RemoveDuplicateFromString {
 		System.out.println(set);
 
 		System.out.println();
+		
 		// 1st method by using stringBuilder
 		// To convert set to string
 		StringBuilder sb = new StringBuilder();
