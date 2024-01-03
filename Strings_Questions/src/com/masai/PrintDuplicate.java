@@ -9,21 +9,13 @@ Loop through the sorted string to find the duplicates.
 If the next character is the same as the current character then we keep on counting the occurrence of that char.
 If the count is greater than one then we print the character and its count.*/
 
-
-
 public class PrintDuplicate {
 	public static void main(String[] args) {
 		String str = "Hii World byee everybodyy";
 		printDuplicates(str);
 	}
 
-
-
-
-
-
 	public static void printDuplicates(String str) {
-
 
 		int size = str.length();
 
@@ -31,7 +23,7 @@ public class PrintDuplicate {
 		char[] ch = str.toCharArray();
 		Arrays.sort(ch);
 		String sortedStr = new String(ch);
-        //	System.out.println(ch);
+		// System.out.println(ch);
 
 		// Loop through the sorted string to find duplicates
 		for (int i = 0; i < size; i++) {
@@ -39,9 +31,9 @@ public class PrintDuplicate {
 
 			// Counting the occurrences of each character
 			while (i < size - 1 && sortedStr.charAt(i) == sortedStr.charAt(i + 1)) {
-					count++;
-					i++;
-				}
+				count++;
+				i++;
+			}
 
 			// Printing the duplicate character and its count
 			if (count > 1) {
@@ -53,18 +45,3 @@ public class PrintDuplicate {
 	}
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
